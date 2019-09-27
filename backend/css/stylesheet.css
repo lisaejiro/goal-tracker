@@ -1,0 +1,312 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    background-image: url(https://res.cloudinary.com/onamusia/image/upload/v1569281466/arrow-2889040_1920_gthrpf.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 705px;
+    background-size: cover;
+    /* width:1334px; */
+    
+box-shadow: inset 0 0 0 800px rgba(0,0,0,.75);
+}
+
+@media screen and (max-width: 600px){
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #ffffff;
+        background-image: url(https://res.cloudinary.com/onamusia/image/upload/v1569281466/arrow-2889040_1920_gthrpf.jpg) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 705px;
+        background-size: cover;
+        width:100%;
+        
+    box-shadow: inset 0 0 0 800px rgba(0,0,0,.65);
+    }   
+}
+/*Nav bar styling*/
+
+
+.nav-main {
+    /* width: 100%; */
+ 
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 1000;
+    margin-bottom: 10px;
+}
+
+.nav-main ul {
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.nav-main ul li {
+   list-style: none;
+   line-height: 60px;
+   
+
+}
+
+.nav-main ul li a{
+    display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+      
+}
+
+.nav-main ul li 
+a:hover {
+    color: white;
+  background-color: #081136;
+  border: 0.5px solid white;
+}
+
+
+.form-class {
+    margin-top: 0px;
+    position: absolute;
+    padding:30px;
+    /* width: 658px;
+    height: 515px; */
+    left: 105px;
+    /* bottom: 10px;     */
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(120, 68, 68, 0.79);
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) and (min-width: 240px){
+    .form-class {
+        margin-top: 0px;
+        left:50px;
+        /* position: absolute; */
+        /* padding:30px;
+        width: 658px;
+        height: 515px;
+        left: 105px; */
+        /* bottom: 10px;     */
+        /* background: rgba(255, 255, 255, 0.95);
+        border: 1px solid rgba(120, 68, 68, 0.79); */
+        box-sizing: border-box;
+    }
+}
+.form-class p {
+ 
+font-family:cursive;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 29px;
+
+color: #0F052D;
+}
+
+.nar{
+    margin-left:800px!important;
+}
+@media screen and (max-width: 600px){
+    .nar{
+        margin-left:0px!important;
+    }
+}
+
+.text{
+    color:white;
+    margin-top:225px;
+    font-family: cursive;
+
+font-weight: 300;
+font-size: 45px;
+line-height: 40px;
+}
+@media screen and (max-width: 600px){
+    .text{
+        display: none;
+    }
+}
+
+
+
+/* label#fname{
+    position: absolute;
+width: 161px;
+height: 29px;
+left: 109px;
+top: 126px;
+
+font-family: Calibri;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+
+color: #000000;
+    } */
+
+    /* label#lname{
+        position: absolute;
+        width: 161px;
+        height: 29px;
+        left: 367px;
+        top: 126px;
+        
+        font-family: Calibri;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        
+        color: #000000;
+        
+        }
+
+    label#email {
+        position: absolute;
+width: 49px;
+height: 29px;
+left: 109px;
+top: 215px;
+
+font-family: Calibri;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+
+color: #000000;
+    }
+
+    label#pwd {
+        position: absolute;
+width: 77px;
+height: 29px;
+left: 109px;
+top: 305px;
+
+font-family: Calibri;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+
+color: #000000;
+
+    }
+
+    input.first-name-class{
+        position: absolute;
+        width: 244px;
+        height: 35px;
+        left: 109px;
+        top: 152px;
+        
+        background: #F3F3F5;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        border-radius: 5px;
+        }
+
+        input.last-name-class{
+            position: absolute;
+            width: 244px;
+            height: 35px;
+            left: 367px;
+            top: 152px;
+            
+            background: #F3F3F5;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius: 5px;
+            }
+    
+
+        input.email-class{
+            position: absolute;
+            width: 502px;
+            height: 35px;
+            left: 109px;
+            top: 244px;
+            
+            background: #F3F3F5;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+
+        
+
+        input.password-class {
+            position: absolute;
+width: 502px;
+height: 35px;
+left: 109px;
+top: 337px;
+
+background: #F3F3F5;
+border: 1px solid rgba(0, 0, 0, 0.2);
+box-sizing: border-box;
+border-radius: 5px;
+        }
+
+
+       
+       
+
+        input.checkbox {
+            position: absolute;
+width: 13px;
+height: 13px;
+left: 109px;
+top: 395px;
+
+background: #F3F3F5;
+border: 1px solid rgba(0, 0, 0, 0.2);
+box-sizing: border-box;
+border-radius: 5px;
+        }
+
+    #agree {
+        position: absolute;
+width: 215px;
+height: 29px;
+left: 128px;
+top: 394px;
+
+font-family: Calibri;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+    }
+
+button {
+    position: absolute;
+width: 143px;
+height: 30px;
+left: 465px;
+top: 433px;
+
+background: #0284E3;
+border-radius: 5px;
+
+font-family:Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: lighter;
+font-size: 14px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+} */
+
